@@ -49,6 +49,7 @@ ldap-bruteforce-detector/
 
 Edit `config.py` to match your environment:
 
+```
 
 # Elasticsearch connection
 ELASTICSEARCH_HOST = '192.168.1.1'
@@ -73,6 +74,8 @@ FIELD_UID = 'uid'
 FIELD_CLIENT_IP = 'client'
 FIELD_RESULT = 'result'
 FIELD_TIMESTAMP = '@timestamp'
+
+```
 
 ## Usage
 
